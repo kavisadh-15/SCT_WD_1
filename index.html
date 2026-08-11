@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>TravelX - Explore The World</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <div class="logo">TravelX</div>
+
+        <nav id="navbar">
+            <a href="#home">Home</a>
+            <a href="#destinations">Destinations</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="menu-btn" id="menuBtn">☰</div>
+    </header>
+
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+
+        <div class="hero-content">
+
+            <h1>Explore The World</h1>
+
+            <p>
+                Discover beautiful destinations, unforgettable
+                experiences and amazing adventures.
+            </p>
+
+            <a href="#destinations" class="btn">
+                Explore Now
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- Destinations Section -->
+    <section class="destinations" id="destinations">
+
+        <h2>Popular Destinations</h2>
+
+        <p class="subtitle">
+            Explore some of the world's most beautiful places.
+        </p>
+
+        <div class="cards">
+
+            <!-- Card 1 -->
+            <div class="card">
+
+                <img
+                    src="360_F_360280107_WvQVmz7gU7Aeg8kaVwlZv5yklWWW1k7N.jpg"
+                    alt="Paris"
+                >
+
+                <div class="card-content">
+
+                    <h3>Paris</h3>
+
+                    <p>
+                        Experience the beauty of the Eiffel Tower,
+                        amazing food and romantic streets.
+                    </p>
+
+                    <button onclick="showDestination('Paris')">
+                        View Details
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- Card 2 -->
+            <div class="card">
+
+                <img
+                    src="maldievs.jpg"
+                    alt="Maldives"
+                >
+
+                <div class="card-content">
+
+                    <h3>Maldives</h3>
+
+                    <p>
+                        Enjoy crystal-clear water, beautiful beaches
+                        and peaceful island resorts.
+                    </p>
+
+                    <button onclick="showDestination('Maldives')">
+                        View Details
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- Card 3 -->
+            <div class="card">
+
+                <img
+                    src="india.jpg"
+                    alt="India"
+                >
+
+                <div class="card-content">
+
+                    <h3>India</h3>
+
+                    <p>
+                        Discover India's rich culture, heritage,
+                        delicious food and landscapes.
+                    </p>
+
+                    <button onclick="showDestination('India')">
+                        View Details
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- About Section -->
+    <section class="about" id="about">
+
+        <div class="about-content">
+
+            <h2>About TravelX</h2>
+
+            <p>
+                TravelX helps travelers discover amazing destinations
+                around the world. Whether you love beaches, mountains,
+                culture or adventure, we help you find your next
+                unforgettable journey.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+
+        <h2>Contact Us</h2>
+
+        <form id="contactForm">
+
+            <input
+                type="text"
+                id="name"
+                placeholder="Your Name"
+                required
+            >
+
+            <input
+                type="email"
+                id="email"
+                placeholder="Your Email"
+                required
+            >
+
+            <textarea
+                id="message"
+                placeholder="Your Message"
+                required
+            ></textarea>
+
+            <button type="submit">
+                Send Message
+            </button>
+
+        </form>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <p>
+            © 2026 TravelX. All Rights Reserved.
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
